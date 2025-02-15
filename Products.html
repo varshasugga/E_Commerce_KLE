@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.CSS">
+</head>
+<body>
+    <header>
+        <div class="logo">Myntra</div>
+        <div class="search-container">
+            <input type="text" id="productSearch" placeholder="Search Here....">
+            <button id="searchButton">Search</button>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Product</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header> 
+    <div class="sort-container">
+        <label for="sortOptions">sort By:</label>
+        <select id="sortOptions">
+            <option value="default">Default</option>
+    <option value="price">Price</option>
+        </select>
+    </div>
+        <div>
+            <div id="productList" class="product-list">
+                <!-- All the products will be displayed here-->
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
